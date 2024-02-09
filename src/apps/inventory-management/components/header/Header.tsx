@@ -3,8 +3,7 @@ import ToggleView from '../toggle-view';
 import './header.css'
 
 const Header = (): JSX.Element => {
-
-
+    
     return (
         <div className='header'>
            <ToggleView />
