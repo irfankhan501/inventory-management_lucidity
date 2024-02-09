@@ -3,3 +3,16 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+.Mui-checked {
+    color: #e6fd72 !important
+}
+
+.Mui-checked + .MuiSwitch-track {
+  background-color: #7d8945  !important;
+}
+
+
+.MuiSwitch-track {
+    background-color: #5c5d5e !important;
+}

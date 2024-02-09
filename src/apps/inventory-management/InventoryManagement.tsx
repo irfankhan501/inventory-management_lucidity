@@ -1,6 +1,6 @@
 import useFetchInventoryItems from './use-fetch-inventory-items';
 import Widgets from './components/widgets';
-import ToggleView from './components/toggle-view';
+import Header from './components/header';
 import Grid from './components/grid';
 import './inventory-management.css';
 
@@ -11,9 +11,11 @@ const InventoryManagement = (): JSX.Element => {
 
     return (
         <div className='inventory_management_container'>
-            <ToggleView />
-            <Widgets />
-            <Grid />
+            <Header />
+            <div className='body_section'>
+                <Widgets />
+                <Grid />
+            </div>  
         </div>
     );
 };

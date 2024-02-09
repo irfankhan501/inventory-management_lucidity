@@ -1,5 +1,8 @@
 .inventory_management_container {
   height: 100vh;
-  padding: 16px;
   background: #161718;
+}
+
+.body_section {
+  padding: 16px;
 }
