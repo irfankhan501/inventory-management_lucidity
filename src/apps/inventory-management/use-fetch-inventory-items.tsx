@@ -21,15 +21,14 @@ const useFetchInventoryItems = (): IUseFetchInventoryItems => {
         try {
             setIsLoading(true);
             const response = await fetchData(INVENTORY_ITEMS_API_URL);
-            if (response) setProducts(response);
-            else setProducts(undefined);
-            setIsLoading(false);
+            setProducts(response || MOCK_PRODUCTS);
         } catch (error) {
-            console.error("Error fetching data:", error);
+            console.error("Error fetchProducts data:", error);
             // API failing most of the time, using mock data
             setProducts(MOCK_PRODUCTS)
+        } finally {
+            setIsLoading(false);
         }
-
     };
 
     useEffect(() => {
