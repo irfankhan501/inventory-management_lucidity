@@ -1,0 +1,65 @@
+.input_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.input {
+    width: calc(50% - 10px);
+}
+
+.form-control {
+    background: #3f413d !important;
+    border: none !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(164, 186, 70,.25) !important
+}
+
+.modal-content {
+    background: #292b27 !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+.modal-footer {
+    border-top: none !important;
+}
+
+
+.btn-light {
+    color: #a4ba46 !important;
+    background: #272826 !important;
+    border: none !important;
+    width: 32px;
+    height: 32px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-secondary {
+    background: none !important;
+    border: none !important;
+    color: #a4ba46 !important
+}
+
+.btn-primary {
+    background: #434541 !important;
+    border: none !important;
+    color: #6e6f6c !important
+}
+
+
+.modal-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_name {
+    font-size: 18px;
+}

@@ -1,0 +1,26 @@
+.grid {
+    .MuiPaper-root {
+        background-color: #212124;
+        border-radius: 10px;
+    }
+    .MuiTableCell-root  {
+        color: #bababb;
+        border-color: #2b2b2d;
+    }
+}
+
+.column_name {
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    background: #161718;
+    color: #778341;
+    padding: 2px 8px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}

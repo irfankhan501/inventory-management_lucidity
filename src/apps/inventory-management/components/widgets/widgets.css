@@ -1,0 +1,38 @@
+.widgets-wrapper {
+    margin-bottom: 20px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.widgets {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.widget {
+    box-sizing: unset;
+    display: flex;
+    width: 25%;
+    height: 80px;
+    background: #243325;
+    border-radius: 10px;
+    gap: 12px;
+    padding: 16px;
+}
+
+.widget-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.value {
+    font-size: 36px;
+}
